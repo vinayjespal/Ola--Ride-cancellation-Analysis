@@ -1,53 +1,85 @@
 # 🚗 Ola Ride Cancellation Trend Analysis
 
-This end-to-end data analytics project focuses on analyzing ride cancellation trends for Ola. By leveraging Excel, SQL, and Power BI, the project aims to identify patterns behind cancellations and provide actionable insights to help reduce them.
+An end-to-end data analytics project to analyze ride booking and cancellation trends for Ola, with the objective of identifying patterns, reducing cancellations, and improving overall service experience.
 
 ---
 
-## 📊 Project Overview
+## 📌 Project Overview
 
-Ride cancellations impact customer satisfaction and business efficiency. This project investigates cancellation behavior across cities, time slots, and ride types to understand the root causes and propose solutions.
-
----
-
-## 🛠️ Tools & Technologies Used
-
-| Tool         | Purpose                              |
-|--------------|--------------------------------------|
-| **Excel**    | Data cleaning & preprocessing        |
-| **SQL**      | Data querying & exploration          |
-| **Power BI** | Visualization & dashboard creation   |
+This project dives into 100,000+ ride records to understand user and driver behavior, cancellation reasons, payment trends, and service performance across various vehicle types. It combines data cleaning, SQL-based exploration, and Power BI visualization for comprehensive insight.
 
 ---
 
-## 📂 Project Workflow
+## 🛠 Tools & Technologies Used
 
-1. **Data Cleaning in Excel**
-   - Handled missing and inconsistent values
-   - Formatted data for smooth processing
+| Tool        | Purpose                                |
+|-------------|----------------------------------------|
+| **Excel**   | Initial data cleaning & preprocessing  |
+| **SQL**     | Data exploration & transformation      |
+| **Power BI**| Dashboard creation & insight delivery  |
 
-2. **Data Import to SQL**
-   - Uploaded cleaned data into a database
-   - Executed queries to identify trends and correlations
+---
 
-3. **Dashboarding in Power BI**
-   - Built interactive dashboards to visualize cancellation trends
-   - Analyzed ride behavior across locations, timings, and ride types
+## 🔍 SQL Analysis Highlights
+
+- **Successful Bookings View** – Filtered all successful rides for detailed analysis.
+- **Average Ride Distance** – Calculated per vehicle type.
+- **Cancellation Analysis** – Separated by customer vs. driver, with specific reasons.
+- **Top 5 Customers** – Identified loyal, high-frequency riders.
+- **Driver Ratings** – Examined inconsistencies across vehicle types.
+- **Payment Trends** – Highlighted UPI as a preferred method.
+- **Customer Ratings** – Averaged per vehicle to assess service perception.
+- **Revenue Insight** – Total value of successful rides.
+- **Incomplete Rides** – Listed with associated reasons.
+
+---
+
+## 📊 Power BI Dashboard
+
+The Power BI dashboard visually represents:
+
+- Booking statuses (Success, Cancelled, Incomplete)
+- Cancellations by customer vs. driver
+- Ride distances and ratings by vehicle type
+- Revenue contributions by ride type
+- Trends across payment methods and ratings
 
 ---
 
 ## 📈 Key Insights
 
-- Identified top reasons contributing to cancellations
-- Recognized peak cancellation hours and high-risk zones
-- Compared behavior between shared and solo rides
-- Evaluated the influence of rider and driver behavior on cancellations
+- Majority of cancellations are by **customers**, often due to delays or mismatched expectations.
+- **Drivers** cancel mostly for **personal or car-related reasons**.
+- **UPI** is the most common payment mode.
+- **Prime Sedan** bookings show inconsistency in driver ratings.
+- A significant number of rides remain **incomplete**, often due to technical or operational issues.
 
 ---
 
-## ✅ Outcome & Business Impact
+## ✅ Recommendations
 
-The analysis provided insights and recommendations that can help reduce ride cancellations, improve customer experience, and enhance operational performance.
+- Offer incentives to reduce customer-initiated cancellations.
+- Implement driver support programs to reduce cancellations from their side.
+- Address incomplete ride reasons with better communication and retry mechanisms.
+- Monitor and improve service quality based on ratings.
+- Optimize vehicle distribution using demand data per ride type.
 
 ---
+
+## 🧠 Learnings
+
+- Applied data cleaning and transformation in Excel and SQL.
+- Built SQL views to modularize analytical queries.
+- Gained hands-on experience with Power BI to craft meaningful dashboards.
+- Extracted actionable insights and proposed practical business recommendations.
+
+---
+
+## 📬 Connect with Me
+
+If you found this project insightful or want to collaborate, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/vinay-jespal/) !
+
+---
+
+
 
